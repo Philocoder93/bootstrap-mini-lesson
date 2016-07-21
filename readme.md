@@ -64,7 +64,7 @@ This ensures "proper rendering and touch zooming". If you want to disable zoomin
 ```
 The most important part of using Bootstrap is just keeping the documents open and searching for the directions on what you're trying to implement.
 
-Don't know where to get started? No problem, Bootstrap provides a [basic template](http://getbootstrap.com/getting-started/#template) for you to star 
+Don't know where to get started? No problem, Bootstrap provides a [basic template](http://getbootstrap.com/getting-started/#template) for you to start building you site. Yes, you can just copy/paste that.
 
 ### Containers
 
@@ -99,10 +99,21 @@ The [Bootstrap grid](http://getbootstrap.com/css/#grid) is built of `.col-[devic
 
 ``` html
 <div class="container">
-  <div class="row">
-    <div class="col-md-3"></div>
-  	<div class="col-md-9"></div>
-  </div>
+   <div class="col-md-4 m-t-2">
+      <p>red</p>
+      <p>red</p>
+      <p>red</p>
+    </div>
+    <div class="col-md-4">
+      <p>white</p>
+      <p>white</p>
+      <p>white</p>
+    </div>
+    <div class="col-md-4">
+      <p>blue</p>
+      <p>blue</p>
+      <p>blue</p>
+    </div>
 </div>
 ```
 
