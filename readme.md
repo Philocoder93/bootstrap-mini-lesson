@@ -1,4 +1,4 @@
-# Bootstrap
+# Bootstrap Mini Lesson
 
 ## Learning Objectives
 
@@ -62,6 +62,9 @@ This ensures "proper rendering and touch zooming". If you want to disable zoomin
 ``` html
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 ```
+The most important part of using Bootstrap is just keeping the documents open and searching for the directions on what you're trying to implement.
+
+Don't know where to get started? No problem, Bootstrap provides a [basic template](http://getbootstrap.com/getting-started/#template) for you to star 
 
 ### Containers
 
@@ -73,6 +76,22 @@ Bootstrap requires that you organize site contents using one of two `"container"
 [This Bootply snippet](http://www.bootply.com/render/CK6xB6cRuE) demonstrates the difference between container and container-fluid.
 
 Both types of containers are responsive, and both allow you to implement Bootstrap's grid system inside of them.
+
+
+## We Never Go Out of Style...
+
+### Out-of-the-box, Bootstrap styles some elements
+
+For starters, Bootstrap implements baseline styles for links and typography, as well as using the styles from `normalize.css` to improve cross-browser performance. For instance, you'll notice changes with `<button>`, `<mark>`, `<code>`, `<samp>`, `<kbd>`, `<pre>`, `<abbr>`...
+
+These are all standard HTML elements, and browsers have default styling for all of them. For instance, on pretty much every browser anything inside `<code>`, `<kbd>`, and `<pre>` will be in a monospace font.
+
+
+### Out-of-the-box, Bootstrap *doesn't* style most elements
+
+For instance, `<button>` with Bootstrap doesn't change too many properties, compared to your browser's default styling: it has square corners and a slightly different gradient, which goes a long way toward making it look "cleaner" and more "modern",  that's pretty much it.
+
+The bulk of Bootstrap's customizing power lies in its dozens of components, which are implemented through a combination of CSS classes and jQuery plugins.
 
 ### Grid System Basics
 
@@ -96,23 +115,6 @@ The device sizes are:
 
 The numbers indicate how many 1/12ths of the viewport width you would like that column to occupy, so `class="col-md-9 col-sm-12"` would be 9/12ths the width of a desktop screen, and 12/12ths the width of a tablet screen.
 
-## I Do: Layout Demo
-
-
-
-## We Never Go Out of Style...
-
-### Out-of-the-box, Bootstrap styles some elements
-
-For starters, Bootstrap implements baseline styles for links and typography, as well as using the styles from `normalize.css` to improve cross-browser performance. For instance, you'll notice changes with `<button>`, `<mark>`, `<code>`, `<samp>`, `<kbd>`, `<pre>`, `<abbr>`...
-
-These are all standard HTML elements, and browsers have default styling for all of them. For instance, on pretty much every browser anything inside `<code>`, `<kbd>`, and `<pre>` will be in a monospace font.
-
-### Out-of-the-box, Bootstrap *doesn't* style most elements
-
-For instance, `<button>` with Bootstrap doesn't change too many properties, compared to your browser's default styling: it has square corners and a slightly different gradient, which goes a long way toward making it look "cleaner" and more "modern",  that's pretty much it.
-
-The bulk of Bootstrap's customizing power lies in its dozens of components, which are implemented through a combination of CSS classes and jQuery plugins.
 
 ### You do: Bootstravenger Hunt (20 minutes)
 
