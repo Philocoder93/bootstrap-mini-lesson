@@ -3,8 +3,7 @@
 ## Learning Objectives
 
 - Explain the benefits (and shortcomings) of using a design framework.
-- Describe the use cases for Bootstrap as a library versus as a framework.
-- List 10 useful classes from the Bootstrap library.
+- List useful classes from the Bootstrap library.
 
 
 ## Intro
